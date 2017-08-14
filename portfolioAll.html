@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+		<!-- jQuery library -->
+		<script src="http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
+
+		<!-- Latest compiled JavaScript -->
+		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+		<link rel="stylesheet" type="text/css" href="css/myStyle.css">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<link href="https://fonts.googleapis.com/css?family=Roboto:100,300,300i,500" rel="stylesheet">
+		<title>Document</title>
+	</head>
+	<body>
+		<script>
+			$(document).ready(function(){
+				var widthDoc = $(window).width();
+				if(widthDoc <= 700){
+					$(".yolo").css({"margin-top":"2px"});
+				}else{
+					$(".yolo").css({"margin-top":"0px"});
+				}
+			});
+					
+		</script>
+		<div class="container-fluid main">
+			<div class="col-md-12 col-xs-12 menu">
+				<div class="col-md-12 col-xs-12 menuCont">
+					<nav role="navigation" class="navbar noMargin">
+						<button type="button" data-target="#navbarCollapse" data-toggle="collapse" class="navbar-toggle" style="background-color: #134690;">
+					      <span class="sr-only">Toggle navigation</span>
+					      <span class="icon-bar" style="background-color: white;"></span>
+					      <span class="icon-bar" style="background-color: white;"></span>
+					      <span class="icon-bar" style="background-color: white;"></span>
+					    </button>
+					    <div id="navbarCollapse" class="collapse navbar-collapse">
+					    	<div class="flex">
+								<ul class="headerMenu nav navbar-nav">
+									<li><a href = "#">Главная</a></li>
+									<li><a href = "#">Услуги</a></li>
+									<li class = "endCell"><a href = "#">Портфолио</a></li>
+									<li><a href = "#">Для бизнеса</a></li>
+									<li><a href = "#">Блог</a></li>
+									<li><a href = "#">Контакты</a></li>
+								</ul>
+							</div>
+							
+						</div>
+					</nav>
+				</div>
+				<div class="col-md-12 col-xs-12 line">	
+					<img src = "image/logo.png" alt = "logo" class = "logo">	
+				</div>
+			</div>
+			<div class="col-md-12 col-xs-12 headerTitle">
+				<div class="col-md-12 col-xs-12 titleCont">
+					Ukrainian Web Development Company
+				</div>
+				<div class="col-md-12 col-xs-12 portf">
+					портфолио
+				</div>
+				<div class="col-md-12 col-xs-12">
+					<div class="buttonP">
+						связаться
+					</div>
+				</div>
+			</div>
+			<div class="col-md-12 col-xs-12 yoloCont">
+				<div class="row">
+					<div class="col-md-4 yolo">
+						<p style="margin-bottom: 28%;">
+							<span style= "font-size: 18pt;">сайт для</span>
+						</p>
+						<p style="line-height: 18px;">
+							<span style="font-size: 60pt; ">yolo</span><br>
+							<span style="font-size: 15pt;">you only live once</span>
+						</p>
+					</div>
+					<div class="col-md-4 yolo">
+						<p style="margin-bottom: 28%;">
+							<span style= "font-size: 18pt;">ios app</span>
+						</p>
+						<p style="line-height: 18px;">
+							<span style="font-size: 60pt; ">yolo</span><br>
+							<span style="font-size: 15pt;">you only live once</span>
+						</p>
+					</div>
+					<div class="col-md-4 yolo">
+						<p style="margin-bottom: 28%;">
+							<span style= "font-size: 18pt;">android app</span>
+						</p>
+						<p style="line-height: 18px;">
+							<span style="font-size: 60pt; ">yolo</span><br>
+							<span style="font-size: 15pt;">you only live once</span>
+						</p>
+					</div>
+				</div>
+			</div>
+			<div class="col-md-12 col-xs-12 bann">
+				<div class="siteFor">
+					сайт для
+				</div>
+				<div class="stomLogo">
+					<img src="image/stomat.png" alt = "stomatLogo">
+				</div>
+				<div class="stomText">
+					сімейна стоматологія
+				</div>
+			</div>
+			<div class="footer col-md-12 col-xs-12">
+				<ul class="footerInf">
+					<li class="col-md-1 col-sm-1 col-xs-12"></li>
+					<li class="col-md-2 col-sm-2 col-xs-12"><span style="font-weight: 500; font-size: 15pt;">Главная</span><br>О нас <br>Наша команда</li>
+					<li class="col-md-2 col-sm-2 col-xs-12"><span style="font-weight: 500; font-size: 15pt;">Услуги</span><br>
+						Сайты<br> Приложения<br> Поддержка<br> Продвижения
+					</li>
+					<li class="col-md-2 col-sm-2 col-xs-12"><span style="font-weight: 500; font-size: 15pt;">Партнеры</span><br>
+						YOLO<br> SUMSUNG<br> ASUS
+					</li>
+					<li class="col-md-2 col-sm-2 col-xs-12"><span style="font-weight: 500; font-size: 15pt;">Для бизнеса</span><br>
+						Для фотографов<br> Для дизайнеров<br> Для видеографов
+					</li>
+					<li class="col-md-2 col-sm-2 col-xs-12"><span style="font-weight: 500; font-size: 15pt;">Контакты</span><br>
+					Mail<br> Skype<br> +380636468436
+					</li>
+					<li class="col-md-1 col-sm-1 col-xs-12"></li>
+				</ul>
+			</div>
+		</div>
+	</body>
+</html>

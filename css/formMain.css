@@ -1,0 +1,29 @@
+::-webkit-input-placeholder {
+	color:#003f6f;
+	text-align: center;
+	font-family: 'Roboto', sans-serif;
+	font-size: 2vw;
+	font-style: italic;
+}
+
+::-moz-placeholder{
+	color:#003f6f;
+	text-align: center;
+	font-family: 'Roboto', sans-serif;
+	font-size: 3vw;
+	font-style: italic;
+	}/* Firefox 19+ */
+:-moz-placeholder{
+	color:#003f6f;
+	text-align: center;
+	font-family: 'Roboto', sans-serif;
+	font-size: 3vw;
+	font-style: italic;
+	}/* Firefox 18- */
+:-ms-input-placeholder{
+	color:#003f6f;
+	text-align: center;
+	font-family: 'Roboto', sans-serif;
+	font-size: 3vw;
+	font-style: italic;
+}

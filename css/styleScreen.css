@@ -1,0 +1,98 @@
+@font-face {
+    font-family:Gill Sans MT Condensed; 
+    src: url(fontSant.ttf); 
+}
+
+.main{
+	padding: 0px;
+}
+
+.topM{
+	padding: 0px 0px 0px 0px;
+/*	background-image:url(../image/pfon.png);*/
+	height: 384px;
+}
+.topM img{
+	position: absolute;
+	width: 100%;
+	z-index: -10;
+	height: 385px;
+}
+
+.lang{
+	padding: 0px 0px 0px 0px;
+	/*border: 1px solid;*/
+	text-align: center;
+	margin-bottom: 113px;
+}
+
+
+.lang ul{
+	list-style: none;
+	padding: 0px 18px 0px 0px;
+	/*margin:0px;*/
+}
+
+.lang ul li{
+	display: inline-block;
+	font-family: 'Roboto', sans-serif;
+	font-size: 17pt;
+	font-weight: 500;
+	text-shadow: white 0 0 10px,white 0 0 10px,white 0 0 10px,white 0 0 10px,white 0 0 10px;
+	color: #292929;
+	margin-left: 15px;
+}
+
+.nameCorp{
+	margin-top: 50px;
+	text-align: center;
+	font-family: Gill Sans MT Condensed;
+	font-size: 64pt;
+    font-weight: 500;
+	letter-spacing: 12px;
+	text-shadow: grey 0 0 10px;
+}
+
+.lineTop{
+	height: 43px;
+	/*border-top: solid 1px;*/
+	background-image:url(../image/line.png);
+}
+.bottomM{
+	padding: 0px;
+	/*background-image: url(../image/bottom.png);*/
+	height: 385px;
+	position: relative;
+}
+
+.b{
+	position: absolute;
+	width: 100%;
+	height: 385px;
+	z-index: -11;
+}
+.lineBottom{
+	height: 43px;
+	/*border: solid 1px;*/
+	background-image:url(../image/botLine.png);
+}
+
+
+.logoText{
+	text-align: center;
+	margin-top: 170px;
+	font-family: Gill Sans MT Condensed;
+	font-size: 35pt;
+    font-weight: 600;
+}
+
+.volume{
+	height: 100%;
+	background-image: url(../image/volume.png);
+}
+
+.imgWolf{
+    text-align: center;
+    position: absolute;
+    top:-45%;
+}

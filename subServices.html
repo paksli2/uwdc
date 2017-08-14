@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+		<!-- jQuery library -->
+		<script src="http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
+		<link rel="stylesheet" type="text/css" href="css/formMain.css">
+		<!-- Latest compiled JavaScript -->
+		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+		<link rel="stylesheet" type="text/css" href="css/myStyle.css">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<link href="https://fonts.googleapis.com/css?family=Roboto:300,300i,500" rel="stylesheet">
+		<title>Document</title>
+	</head>
+	<body>
+		<script type="text/javascript">
+			$(document).ready(function(){
+				var widthDoc = $(window).width();
+				if(widthDoc <= 700){
+					$(".nCont").hide();
+					$(".servPart").css({"border-right":"0px"});
+				}else{
+					$(".nCont").show();
+				}
+
+				// $(".servPart").hover(function(){
+			 //        $(".servNum").addClass("textShad");
+			 //    },
+			 //    function(){
+			 //        $(".servNum").removeClass("textShad");
+			 //    });
+
+			});
+					
+		</script>
+		<div class="container-fluid main">
+			<div class="col-md-12 col-xs-12 menu">
+				<div class="col-md-12 col-xs-12 menuCont">
+					<nav role="navigation" class="navbar noMargin">
+						<button type="button" data-target="#navbarCollapse" data-toggle="collapse" class="navbar-toggle" style="background-color: #134690;">
+					      <span class="sr-only">Toggle navigation</span>
+					      <span class="icon-bar" style="background-color: white;"></span>
+					      <span class="icon-bar" style="background-color: white;"></span>
+					      <span class="icon-bar" style="background-color: white;"></span>
+					    </button>
+					    <div id="navbarCollapse" class="collapse navbar-collapse">
+					    	<div class="flex">
+								<ul class="headerMenu nav navbar-nav">
+									<li><a href = "#">Главная</a></li>
+									<li><a href = "#">Услуги</a></li>
+									<li class = "endCell"><a href = "#">Портфолио</a></li>
+									<li><a href = "#">Для бизнеса</a></li>
+									<li><a href = "#">Блог</a></li>
+									<li><a href = "#">Контакты</a></li>
+								</ul>
+							</div>
+							
+						</div>
+					</nav>
+				</div>
+				<div class="col-md-12 col-xs-12 line">	
+					<img src = "image/logo.png" alt = "logo" class = "logo">	
+				</div>
+				
+			</div>
+			<div class="col-md-12 col-xs-12 headerTitle">
+				<div class="col-md-12 col-xs-12 titleCont">
+					Ukrainian Web Development Company
+				</div>
+				<div class="col-md-12 col-xs-12 portf">
+					создание сайта
+				</div>
+				<div class="col-md-12 col-xs-12">
+					<div class="buttonP">
+						связаться
+					</div>
+				</div>
+			</div>
+			<div class="col-md-12 col-xs-12 subserv">
+				<div class="row nCont noMarg">
+					<div class="col-md-2 col-xs-12 servNum">
+						1
+					</div>
+					<div class="col-md-2 col-xs-12 servNum">
+						2
+					</div>
+					<div class="col-md-2 col-xs-12 servNum">
+						3
+					</div>
+					<div class="col-md-2 col-xs-12 servNum">
+						4
+					</div>
+					<div class="col-md-2 col-xs-12 servNum">
+						5
+					</div>
+					<div class="col-md-2 col-xs-12 servNum" >
+						6
+					</div>
+				</div>
+				<div class="row noMarg">
+					<div class="col-md-2 col-xs-12 servPart">
+						Лендинг
+					</div>
+					<div class="col-md-2 col-xs-12 servPart ">
+						Визитка
+					</div>
+					<div class="col-md-2 col-xs-12 servPart">
+						Корпоративный
+					</div>
+					<div class="col-md-2 col-xs-12 servPart ">
+						Каталог
+					</div>
+					<div class="col-md-2 col-xs-12 servPart">
+						Интернет магазин
+					</div>
+					<div class="col-md-2 col-xs-12 servPart" style="border-right: 0px !important;">
+						Уникальный портал
+					</div>
+				</div>
+				<div class="col-md-12 col-xs-12 landing">
+					<div class="row ">
+						<div class="col-md-2 landImg">
+							<img src="image/land1.png" alt="computer">
+						</div>
+						<div class="col-md-10 landDescr">
+							<p>
+								Landing page – это одностраничный сайт, отличительная черта этой страницы  заключается в призыве посетителя к целевому действию, а именно оставить данные или перезвонить.
+							</p>
+							<p> 
+								На данной странице находится только та информация, за которой пришел пользователь.
+							</p>
+						</div>
+					</div>
+					<div class="row stageCont">
+						<div class="col-md-3 col-xs-12 stageP">Этап 1</div>
+						<div class="col-md-3 col-xs-12 stageP">Этап 2</div>
+						<div class="col-md-3 col-xs-12 stageP">Этап 3</div>
+						<div class="col-md-3 col-xs-12 stageP">Этап 4</div>
+					</div>
+					<div class="col-md-12 col-xs-12 addInfo">
+						<p>
+							Дополнительно:<br>
+							Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum maximus nisi at nibh placerat egestas. Ut dapibus, lacus sed laoreet cursus, massa neque efficitur.
+						</p>
+					</div>
+					<div class="col-md-12 col-xs-12" style="margin-bottom: 90px;">
+						<div class="buttonServ">
+							заказать
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="col-md-12 col-sm-12 col-xs-12 question">
+				<div class="qText">
+					<span style="font-size: 22pt !important; letter-spacing: 1px !important;">Остались вопросы?</span><br>
+					Спрашивайте, мы с радостью ответим
+				</div>
+				<div class="qForm">
+					<form>
+					<table>
+						<tr>
+							<td>
+								<input type="text" name="name" placeholder="Ваше имя" class="qInput">
+							</td>
+							<td>
+								<input type="text" name="phone" placeholder="Телефон" class="qInput">
+							</td>
+						</tr>
+						<tr>
+							<td colspan="2">
+								<input type="text" name="question" placeholder="Вопрос" class="qInput">
+							</td>
+						</tr>
+					</table>
+					</form>
+				</div>
+				<div class="linkB">
+					СВЯЗАТЬСЯ
+				</div>
+			</div>
+			<div class="col-md-12 col-sm-12 col-xs-12 triangle2">
+				<canvas id="canvas" style="width: 100%; height: 110px; border: 0px;"></canvas> 
+				  <script> 
+				    var canvas = document.getElementById('canvas'); 
+				    var c = canvas.getContext('2d'); 
+				    c.fillStyle = '#003f6f';
+					c.beginPath();
+					c.moveTo(0,0);
+					c.lineTo(canvas.width,0);
+					c.lineTo(canvas.width/2,canvas.height);
+					c.closePath();
+					c.fill();
+					// c.strokeStyle = 'rgb(0,128,0)';
+					// c.lineWidth = 5;
+				  </script>
+				  <div class="col-md-12 col-sm-12 col-xs-12 wolf">
+				  	<img src="image/wolf.png" alt = "logo">
+				  </div>
+			</div>
+			<div class="footer col-md-12 col-xs-12">
+				<ul class="footerInf">
+					<li class="col-md-1 col-sm-1 col-xs-12"></li>
+					<li class="col-md-2 col-sm-2 col-xs-12"><span style="font-weight: 500; font-size: 15pt;">Главная</span><br>О нас <br>Наша команда</li>
+					<li class="col-md-2 col-sm-2 col-xs-12"><span style="font-weight: 500; font-size: 15pt;">Услуги</span><br>
+						Сайты<br> Приложения<br> Поддержка<br> Продвижения
+					</li>
+					<li class="col-md-2 col-sm-2 col-xs-12"><span style="font-weight: 500; font-size: 15pt;">Партнеры</span><br>
+						YOLO<br> SUMSUNG<br> ASUS
+					</li>
+					<li class="col-md-2 col-sm-2 col-xs-12"><span style="font-weight: 500; font-size: 15pt;">Для бизнеса</span><br>
+						Для фотографов<br> Для дизайнеров<br> Для видеографов
+					</li>
+					<li class="col-md-2 col-sm-2 col-xs-12"><span style="font-weight: 500; font-size: 15pt;">Контакты</span><br>
+					Mail<br> Skype<br> +380636468436
+					</li>
+					<li class="col-md-1 col-sm-1 col-xs-12"></li>
+				</ul>
+			</div>
+		</div>
+	</body>
+</html>

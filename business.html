@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+		<!-- jQuery library -->
+		<script src="http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
+
+		<!-- Latest compiled JavaScript -->
+		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+		<link rel="stylesheet" type="text/css" href="css/myStyle.css">
+		<link rel="stylesheet" type="text/css" href="css/formBusiness.css">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<link href="https://fonts.googleapis.com/css?family=Roboto:300,300i,500" rel="stylesheet">
+		<title>Document</title>
+	</head>
+	<body>
+		<div class="container-fluid main">
+			<div class="col-md-12 col-xs-12 menu">
+				<div class="col-md-12 col-xs-12 menuCont">
+					<nav role="navigation" class="navbar noMargin">
+						<button type="button" data-target="#navbarCollapse" data-toggle="collapse" class="navbar-toggle" style="background-color: #134690;">
+					      <span class="sr-only">Toggle navigation</span>
+					      <span class="icon-bar" style="background-color: white;"></span>
+					      <span class="icon-bar" style="background-color: white;"></span>
+					      <span class="icon-bar" style="background-color: white;"></span>
+					    </button>
+					    <div id="navbarCollapse" class="collapse navbar-collapse">
+					    	<div class="flex">
+								<ul class="headerMenu nav navbar-nav">
+									<li><a href = "./index.html">Главная</a></li>
+									<li><a href = "./services.html">Услуги</a></li>
+									<li class = "endCell"><a href = "./portfolio.html">Портфолио</a></li>
+									<li><a href = "./business.html">Для бизнеса</a></li>
+									<li><a href = "./blog.html">Блог</a></li>
+									<li><a href = "./contacts.html">Контакты</a></li>
+								</ul>
+							</div>
+							
+						</div>
+					</nav>
+				</div>
+				<div class="col-md-12 col-xs-12 line">	
+					<img src = "image/logo.png" alt = "logo" class = "logo">	
+				</div>
+			</div>
+			<div class="col-md-12 col-xs-12  bigText">
+				ДЛЯ БИЗНЕСА
+			</div>
+			<div class = "col-md-12 col-xs-12 business">
+				<div class="row">
+					<div class = "col-md-6 col-xs-12 busText">
+						<p>
+							Мы открыты для сотрудничества с интересными проектами и готовы инвестировать в них, а так же будем рады вывести ваши стартапы на рынок. Выбрав нас, Вы получите надежного партнера, который делает работу качественно и доводит всё до конца.
+						</p>
+					</div>
+					<div class = "col-md-6 col-xs-12 formLinkCont">
+						<table border = "0">
+							<tr>
+								<td class="textFormLink">ФОРМА ДЛЯ СВЯЗИ</td>
+							</tr>
+							<tr>
+								<td>
+									<form>
+										<table style="width: 100%;" border="0" class="formLink">
+											<tr>
+												<td><input type="text" name="name" placeholder="Ваше имя"></td>
+											</tr>
+											<tr>
+												<td><input type="text" name="mobPhone" placeholder="Телефон"></td>
+											</tr>
+										</table>
+									</form>
+								</td>
+							</tr>
+							<tr>
+								<td>
+									<div class="buttonLinkForm">Связаться</div>
+								</td>
+							</tr>
+						</table>
+					</div>
+				</div>	
+			</div>
+			<div class="col-md-12 col-sm-12 col-xs-12 triangle2">
+				<canvas id="canvas" style="width: 100%; height: 110px; border: 0px;"></canvas> 
+				  <script> 
+				    var canvas = document.getElementById('canvas'); 
+				    var c = canvas.getContext('2d'); 
+				    c.fillStyle = '#009ce7';
+					c.beginPath();
+					c.moveTo(0,0);
+					c.lineTo(canvas.width,0);
+					c.lineTo(canvas.width/2,canvas.height);
+					c.closePath();
+					c.fill();
+					// c.strokeStyle = 'rgb(0,128,0)';
+					// c.lineWidth = 5;
+				  </script>
+				  <div class="col-md-12 col-sm-12 col-xs-12 wolf">
+				  	<img src="image/wolf.png" alt = "logo">
+				  </div>
+			</div>
+			<div class="footer col-md-12 col-xs-12">
+				<ul class="footerInf">
+					<li class="col-md-1 col-sm-1 col-xs-12"></li>
+					<li class="col-md-2 col-sm-2 col-xs-12"><span style="font-weight: 500; font-size: 15pt;">Главная</span><br>О нас <br>Наша команда</li>
+					<li class="col-md-2 col-sm-2 col-xs-12"><span style="font-weight: 500; font-size: 15pt;">Услуги</span><br>
+						Сайты<br> Приложения<br> Поддержка<br> Продвижения
+					</li>
+					<li class="col-md-2 col-sm-2 col-xs-12"><span style="font-weight: 500; font-size: 15pt;">Партнеры</span><br>
+						YOLO<br> SUMSUNG<br> ASUS
+					</li>
+					<li class="col-md-2 col-sm-2 col-xs-12"><span style="font-weight: 500; font-size: 15pt;">Для бизнеса</span><br>
+						Для фотографов<br> Для дизайнеров<br> Для видеографов
+					</li>
+					<li class="col-md-2 col-sm-2 col-xs-12"><span style="font-weight: 500; font-size: 15pt;">Контакты</span><br>
+					Mail<br> Skype<br> +380636468436
+					</li>
+					<li class="col-md-1 col-sm-1 col-xs-12"></li>
+				</ul>
+			</div>
+		</div>
+	</body>
+</html>
